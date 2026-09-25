@@ -1,0 +1,11 @@
+{
+  "redirects": [
+    { "source": "/blog", "destination": "/", "statusCode": 301 },
+    { "source": "/blog/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/podcast", "destination": "/", "statusCode": 301 },
+    { "source": "/podcast/:path*", "destination": "/", "statusCode": 301 },
+    { "source": "/faqs", "destination": "/#faq-heading", "statusCode": 301 },
+    { "source": "/2026-google-review(.*)", "destination": "/", "statusCode": 301 },
+    { "source": "/cart", "destination": "/", "statusCode": 301 }
+  ]
+}
